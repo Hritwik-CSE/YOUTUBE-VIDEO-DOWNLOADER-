@@ -1,6 +1,5 @@
 # YOUTUBE-VIDEO-DOWNLOADER
-
-**This Python script is a graphical user interface (GUI) application for downloading YouTube videos, built using the tkinter library. It uses the powerful yt-dlp library to handle the backend downloading process.**
+**It is a Graphical User Interface (GUI) application for downloading Youtube Video at highest quality avaliable. The application is build using PYTHON. It uses powerful yt-dlp libraries to handal backend process. It also use tkinter library and ffmpeg.**
 
 # KEY FEATURES
 
@@ -17,11 +16,19 @@
 * __Dependency Check:__ It checks for the presence of FFmpeg on the system, which is required for merging the video and audio streams into a single MP4 file.
 
 # How to run it on your computer
+
 + Install **PYTHON**
   
 + Go to the browser search for **CHOCOLATEY** and install it on your computer using POWERSHELL
   
 + Then install **ffmpeg**
+
++ Open **CMD** and type
++     pip install yt-dlp
++ hit enter
++ And after installing yt-dlp again type
++     pip install flask
++ Hit enter
   
 + Copy the code save it on your computer local file (either C:\, D:\ or E:\ whatever is on your compter) give a name to the file and save it as a .py file
   
